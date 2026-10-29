@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "project_python": true,
+    "local_libero_import": true,
+    "all_four_suite_resources": true,
+    "four_simulator_tests": true,
+    "source_absence_reported": true,
+    "not_falsely_ready": true,
+    "strict_correctly_blocks": true,
+    "eval_does_not_fall_back": true,
+    "pip_check": true
+  },
+  "all_passed": true,
+  "scope": "Project scaffolding and simulator only, NOT OFT inference."
+}

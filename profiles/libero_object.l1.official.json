@@ -1,0 +1,25 @@
+{
+  "status": "VERIFIED_AGAINST_PINNED_OFFICIAL_GUIDE_AND_RUNNER_DEFAULTS",
+  "oft_commit": "e4287e94541f459edc4feabc4e181f537cd569a8",
+  "checkpoint_repo": "moojink/openvla-7b-oft-finetuned-libero-object",
+  "note": "Seed 7 is the official runner default, NOT a claim about the paper three seeds. Hardware and library differences can affect results. Nonquantized BF16 only.",
+  "options": {
+    "use_l1_regression": true,
+    "use_diffusion": false,
+    "use_film": false,
+    "num_images_in_input": 2,
+    "use_proprio": true,
+    "center_crop": true,
+    "num_open_loop_steps": 8,
+    "lora_rank": 32,
+    "load_in_8bit": false,
+    "load_in_4bit": false,
+    "task_suite_name": "libero_object",
+    "num_steps_wait": 10,
+    "num_trials_per_task": 50,
+    "initial_states_path": "DEFAULT",
+    "env_img_res": 256,
+    "use_wandb": false,
+    "seed": 7
+  }
+}

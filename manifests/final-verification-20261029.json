@@ -1,0 +1,146 @@
+{
+  "timestamp": "2026-10-29T01:56:23.856947+08:00",
+  "pip_check": "No broken requirements found.",
+  "unit_tests": {
+    "count": 10,
+    "status": "PASS",
+    "log": "logs/unit-tests.log"
+  },
+  "official_help_exit_code": 0,
+  "simulators": [
+    {
+      "timestamp": "2026-10-29T01:19:35.902032+08:00",
+      "rendering": {
+        "mujoco_gl": "egl",
+        "vendor": "NVIDIA Corporation",
+        "renderer": "NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2"
+      },
+      "kind": "simulator_only_NOT_policy_evaluation",
+      "suite": "libero_spatial",
+      "task_id": 0,
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "frames": 5,
+      "reset_render_step": "PASS"
+    },
+    {
+      "timestamp": "2026-10-29T01:19:40.260273+08:00",
+      "rendering": {
+        "mujoco_gl": "egl",
+        "vendor": "NVIDIA Corporation",
+        "renderer": "NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2"
+      },
+      "kind": "simulator_only_NOT_policy_evaluation",
+      "suite": "libero_object",
+      "task_id": 0,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "frames": 5,
+      "reset_render_step": "PASS"
+    },
+    {
+      "timestamp": "2026-10-29T01:19:44.638379+08:00",
+      "rendering": {
+        "mujoco_gl": "egl",
+        "vendor": "NVIDIA Corporation",
+        "renderer": "NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2"
+      },
+      "kind": "simulator_only_NOT_policy_evaluation",
+      "suite": "libero_goal",
+      "task_id": 0,
+      "task": "open the middle drawer of the cabinet",
+      "frames": 5,
+      "reset_render_step": "PASS"
+    },
+    {
+      "timestamp": "2026-10-29T01:19:49.624703+08:00",
+      "rendering": {
+        "mujoco_gl": "egl",
+        "vendor": "NVIDIA Corporation",
+        "renderer": "NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2"
+      },
+      "kind": "simulator_only_NOT_policy_evaluation",
+      "suite": "libero_10",
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "frames": 5,
+      "reset_render_step": "PASS"
+    }
+  ],
+  "flash_attention": {
+    "timestamp": "2026-10-29T01:31:52.039974+08:00",
+    "torch": "2.2.0+cu121",
+    "cuda_runtime": "12.1",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "version": "2.5.5",
+    "dtype": "torch.bfloat16",
+    "shape": [
+      1,
+      32,
+      4,
+      64
+    ],
+    "finite": true,
+    "GPU_kernel": "PASS"
+  },
+  "bitsandbytes": {
+    "timestamp": "2026-10-29T01:31:52.039974+08:00",
+    "torch": "2.2.0+cu121",
+    "cuda_runtime": "12.1",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "bitsandbytes": "0.43.3",
+    "dtype": "torch.bfloat16",
+    "shape": [
+      1,
+      8,
+      32
+    ],
+    "finite": true,
+    "status": "PASS"
+  },
+  "spatial_checkpoint": {
+    "repo_id": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+    "revision": "6d0231af0e48c5985f1ff86908f4674b84bc049b",
+    "known_bytes": 15939159216,
+    "downloaded": true,
+    "sha256_verified": true
+  },
+  "checkpoint_file_count": 25,
+  "lfs_sha256_count": 9,
+  "nonpaper_4bit_smoke": {
+    "timestamp": "2026-10-29T01:54:35.058286+08:00",
+    "status": "PASS",
+    "actions_shape": [
+      8,
+      7
+    ],
+    "actions_finite": true,
+    "executed_steps": 8,
+    "is_loaded_in_4bit": true,
+    "hf_device_map": {
+      "": 0
+    },
+    "llm_attention_backend": "sdpa",
+    "peak_torch_allocated_bytes": 5679266304,
+    "working_directory": "/home/lyx/workspace/openvla-oft-libero-eval/vendor/openvla-oft",
+    "model_logic_sha256": {
+      "modeling_prismatic.py": {
+        "source": "b5431a074c0025a12e46dc954a5e18d1d73477babb5ae42e3a12ab4b907f33a6",
+        "checkpoint": "b5431a074c0025a12e46dc954a5e18d1d73477babb5ae42e3a12ab4b907f33a6"
+      },
+      "configuration_prismatic.py": {
+        "source": "68cc5ae34f1b46af3168d8d479cb81bb776965653453fd904aa8eefb6c8f9f68",
+        "checkpoint": "68cc5ae34f1b46af3168d8d479cb81bb776965653453fd904aa8eefb6c8f9f68"
+      }
+    }
+  },
+  "doctor_software_exit_code": 0,
+  "doctor_strict_exit_code": 2,
+  "software_prerequisites_passed": true,
+  "bf16_hardware_preflight_passed": false,
+  "bf16_launcher_protection_exit_code": 2,
+  "paper_benchmark_completed": false,
+  "remaining_constraints": [
+    "8GB GPU cannot fit paper BF16 7B evaluation",
+    "Other 3 suite checkpoint weights not downloaded; all four do not fit current disk"
+  ],
+  "disk_free_bytes": 24825249792
+}

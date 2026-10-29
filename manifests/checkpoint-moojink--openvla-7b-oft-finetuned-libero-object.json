@@ -1,0 +1,163 @@
+{
+  "repo_id": "moojink/openvla-7b-oft-finetuned-libero-object",
+  "revision": "4c89574e1c538b6c102f43f0526d60a9d3650148",
+  "known_bytes": 15939159270,
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "action_head--150000_checkpoint.pt",
+    "added_tokens.json",
+    "config.json",
+    "configuration_prismatic.py",
+    "dataset_statistics.json",
+    "generation_config.json",
+    "lora_adapter/README.md",
+    "lora_adapter/adapter_config.json",
+    "lora_adapter/adapter_model.safetensors",
+    "model-00001-of-00004.safetensors",
+    "model-00002-of-00004.safetensors",
+    "model-00003-of-00004.safetensors",
+    "model-00004-of-00004.safetensors",
+    "model.safetensors.index.json",
+    "modeling_prismatic.py",
+    "preprocessor_config.json",
+    "processing_prismatic.py",
+    "processor_config.json",
+    "proprio_projector--150000_checkpoint.pt",
+    "special_tokens_map.json",
+    "tokenizer.json",
+    "tokenizer.model",
+    "tokenizer_config.json"
+  ],
+  "file_metadata": [
+    {
+      "name": ".gitattributes",
+      "size": 674,
+      "sha256": null
+    },
+    {
+      "name": "README.md",
+      "size": 2897,
+      "sha256": null
+    },
+    {
+      "name": "action_head--150000_checkpoint.pt",
+      "size": 302242674,
+      "sha256": "8465509d85b063f3c90359de0c1876c34ce3f162cc9baafbe9e75e170146e4c7"
+    },
+    {
+      "name": "added_tokens.json",
+      "size": 21,
+      "sha256": null
+    },
+    {
+      "name": "config.json",
+      "size": 60712,
+      "sha256": null
+    },
+    {
+      "name": "configuration_prismatic.py",
+      "size": 5865,
+      "sha256": null
+    },
+    {
+      "name": "dataset_statistics.json",
+      "size": 3022,
+      "sha256": null
+    },
+    {
+      "name": "generation_config.json",
+      "size": 136,
+      "sha256": null
+    },
+    {
+      "name": "lora_adapter/README.md",
+      "size": 5034,
+      "sha256": "1acb533904cd9931276014499b51c98c0fc8e3eab8962de7b971547116068383"
+    },
+    {
+      "name": "lora_adapter/adapter_config.json",
+      "size": 813,
+      "sha256": "ad2e63387460d2ee5758c4f3b2cdf1e5a92cf37d120ec4ff3ed2e90d9f46aa6a"
+    },
+    {
+      "name": "lora_adapter/adapter_model.safetensors",
+      "size": 484458600,
+      "sha256": "7e8c81b0960747337141c666f39f607dca0ba7581933fb94b232d96e5dc6d7d8"
+    },
+    {
+      "name": "model-00001-of-00004.safetensors",
+      "size": 4925122448,
+      "sha256": "fedf457ad486f5e4ce28579a85e7b3ae1448d01884a674e9baaf7fc47125401c"
+    },
+    {
+      "name": "model-00002-of-00004.safetensors",
+      "size": 4947392496,
+      "sha256": "cb9e4eb3991dfdb7d111e332d7d565543cabc3bc63bfc8ebba83695ad05dcaf3"
+    },
+    {
+      "name": "model-00003-of-00004.safetensors",
+      "size": 4947417456,
+      "sha256": "f28ce17430e501109e4f512373bea70bc77d4cfe66c17a1a120a04a5a5623f8d"
+    },
+    {
+      "name": "model-00004-of-00004.safetensors",
+      "size": 262668432,
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60"
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "size": 94764,
+      "sha256": null
+    },
+    {
+      "name": "modeling_prismatic.py",
+      "size": 49029,
+      "sha256": null
+    },
+    {
+      "name": "preprocessor_config.json",
+      "size": 1650,
+      "sha256": null
+    },
+    {
+      "name": "processing_prismatic.py",
+      "size": 12718,
+      "sha256": null
+    },
+    {
+      "name": "processor_config.json",
+      "size": 130,
+      "sha256": null
+    },
+    {
+      "name": "proprio_projector--150000_checkpoint.pt",
+      "size": 67275256,
+      "sha256": "4ae5121c2740a57f5747061e938246f9e3994bbdbfb97676ffef795221e6f8d9"
+    },
+    {
+      "name": "special_tokens_map.json",
+      "size": 552,
+      "sha256": null
+    },
+    {
+      "name": "tokenizer.json",
+      "size": 1842976,
+      "sha256": null
+    },
+    {
+      "name": "tokenizer.model",
+      "size": 499723,
+      "sha256": null
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 1192,
+      "sha256": null
+    }
+  ],
+  "downloaded": false,
+  "sha256_verified": false,
+  "path": "/home/lyx/workspace/openvla-oft-libero-eval/checkpoints/openvla-7b-oft-finetuned-libero-object",
+  "timestamp": "2026-10-29T01:16:42.195693+08:00"
+}

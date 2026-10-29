@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-10-29T00:59:40.102463+08:00",
+  "scope": "Simulator only, not OFT policy evaluation",
+  "inherited_software_overrides_regression": "PASS",
+  "results": [
+    {
+      "suite": "libero_spatial",
+      "task_id": 0,
+      "steps": 5,
+      "status": "PASS",
+      "mujoco_gl": "egl",
+      "vendor": "NVIDIA Corporation",
+      "renderer": "NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2"
+    },
+    {
+      "suite": "libero_object",
+      "task_id": 0,
+      "steps": 5,
+      "status": "PASS",
+      "mujoco_gl": "egl",
+      "vendor": "NVIDIA Corporation",
+      "renderer": "NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2"
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 0,
+      "steps": 5,
+      "status": "PASS",
+      "mujoco_gl": "egl",
+      "vendor": "NVIDIA Corporation",
+      "renderer": "NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2"
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 0,
+      "steps": 5,
+      "status": "PASS",
+      "mujoco_gl": "egl",
+      "vendor": "NVIDIA Corporation",
+      "renderer": "NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2"
+    }
+  ]
+}

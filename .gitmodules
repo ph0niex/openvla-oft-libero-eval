@@ -1,0 +1,9 @@
+[submodule "vendor/openvla-oft"]
+	path = vendor/openvla-oft
+	url = https://github.com/moojink/openvla-oft.git
+[submodule "vendor/LIBERO"]
+	path = vendor/LIBERO
+	url = https://github.com/Lifelong-Robot-Learning/LIBERO.git
+[submodule "vendor/transformers-openvla-oft"]
+	path = vendor/transformers-openvla-oft
+	url = https://github.com/moojink/transformers-openvla-oft.git

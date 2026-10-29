@@ -1,0 +1,195 @@
+{
+  "timestamp": "2026-10-29T01:20:41.083222+08:00",
+  "packages": {
+    "torch": {
+      "version": "2.2.0+cu121",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "torchvision": {
+      "version": "0.17.0+cu121",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "torchaudio": {
+      "version": "2.2.0",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "transformers": {
+      "version": "4.40.1",
+      "location": "/home/lyx/workspace/openvla-oft-libero-eval/.venv/lib/python3.10/site-packages",
+      "direct_url": {
+        "dir_info": {
+          "editable": true
+        },
+        "url": "file:///home/lyx/workspace/openvla-oft-libero-eval/vendor/transformers-openvla-oft"
+      }
+    },
+    "tokenizers": {
+      "version": "0.19.1",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "numpy": {
+      "version": "1.26.4",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "timm": {
+      "version": "0.9.10",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "accelerate": {
+      "version": "0.30.1",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "peft": {
+      "version": "0.11.1",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "draccus": {
+      "version": "0.8.0",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "huggingface-hub": {
+      "version": "0.36.2",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "libero": {
+      "version": "0.1.0",
+      "location": "/home/lyx/workspace/openvla-oft-libero-eval/vendor/LIBERO",
+      "direct_url": null
+    },
+    "robosuite": {
+      "version": "1.4.1",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "mujoco": {
+      "version": "2.3.7",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "bddl": {
+      "version": "3.6.0",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "gym": {
+      "version": "0.26.2",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "imageio": {
+      "version": "2.38.0",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "imageio-ffmpeg": {
+      "version": "0.6.0",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "tensorflow": {
+      "version": "2.15.0",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "tensorflow-datasets": {
+      "version": "4.9.3",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "tensorflow-graphics": {
+      "version": "2021.12.3",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "dlimp": {
+      "version": "0.0.1",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": {
+        "url": "https://github.com/moojink/dlimp_openvla",
+        "vcs_info": {
+          "commit_id": "040105d256bd28866cc6620621a3d5f7b6b91b46",
+          "vcs": "git"
+        }
+      }
+    },
+    "diffusers": {
+      "version": "0.30.3",
+      "location": "/home/lyx/workspace/openvla-oft-libero-eval/.venv/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "flash-attn": {
+      "version": "2.5.5",
+      "location": "/home/lyx/workspace/openvla-oft-libero-eval/.venv/lib/python3.10/site-packages",
+      "direct_url": {
+        "archive_info": {},
+        "url": "file:///home/lyx/workspace/openvla-oft-libero-eval/wheelhouse/flash_attn-2.5.5%2Bcu122torch2.2cxx11abiFALSE-cp310-cp310-linux_x86_64.whl"
+      }
+    },
+    "bitsandbytes": {
+      "version": "0.43.3",
+      "location": "/home/lyx/miniforge3/envs/openvla/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "ninja": {
+      "version": "1.11.1.1",
+      "location": "/home/lyx/workspace/openvla-oft-libero-eval/.venv/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "fastapi": {
+      "version": "0.115.6",
+      "location": "/home/lyx/workspace/openvla-oft-libero-eval/.venv/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "uvicorn": {
+      "version": "0.34.0",
+      "location": "/home/lyx/workspace/openvla-oft-libero-eval/.venv/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "starlette": {
+      "version": "0.41.3",
+      "location": "/home/lyx/workspace/openvla-oft-libero-eval/.venv/lib/python3.10/site-packages",
+      "direct_url": null
+    },
+    "importlib-metadata": {
+      "version": "9.0.1",
+      "location": "/home/lyx/workspace/openvla-oft-libero-eval/.venv/lib/python3.10/site-packages",
+      "direct_url": null
+    }
+  },
+  "sources": {
+    "openvla-oft": {
+      "commit": "e4287e94541f459edc4feabc4e181f537cd569a8",
+      "remote": "https://github.com/moojink/openvla-oft.git",
+      "status": "",
+      "status_final": ""
+    },
+    "transformers-openvla-oft": {
+      "commit": "bc339d9ad707454c0c115970db43c260067c61ab",
+      "remote": "https://github.com/moojink/transformers-openvla-oft.git",
+      "status": "",
+      "status_final": ""
+    },
+    "LIBERO": {
+      "commit": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+      "remote": "https://github.com/Lifelong-Robot-Learning/LIBERO.git",
+      "status": "",
+      "status_final": ""
+    }
+  },
+  "nvcc": null,
+  "observed_at": "2026-10-29T01:22:46.871181+08:00",
+  "disk": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/nvme1n1p7  125G   86G   33G  73% /home\n",
+  "python": "Python 3.10.22",
+  "final_verified_at": "2026-10-29T01:56:23.858185+08:00",
+  "disk_free_bytes_final": 24825245696
+}

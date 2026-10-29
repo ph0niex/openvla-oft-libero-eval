@@ -1,0 +1,13 @@
+# Overlay only: requires the existing Python3.10/PyTorch2.2.0+cu121 base.
+# Do not use this as a standalone complete environment lock.
+# Install with: python -m pip install --no-deps -r requirements-eval-overlay.txt
+# Prebuilt FlashAttention wheel is installed separately from wheelhouse/.
+-e ./vendor/transformers-openvla-oft
+-e ./vendor/openvla-oft
+-e ./vendor/LIBERO
+diffusers==0.30.3
+ninja==1.11.1.1
+importlib-metadata==9.0.1
+fastapi==0.115.6
+starlette==0.41.3
+uvicorn==0.34.0

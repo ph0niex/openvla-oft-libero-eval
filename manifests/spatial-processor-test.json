@@ -1,0 +1,20 @@
+{
+  "processor_type": "PrismaticProcessor",
+  "input_shapes": {
+    "input_ids": [
+      1,
+      19
+    ],
+    "attention_mask": [
+      1,
+      19
+    ],
+    "pixel_values": [
+      1,
+      6,
+      224,
+      224
+    ]
+  },
+  "status": "PASS"
+}

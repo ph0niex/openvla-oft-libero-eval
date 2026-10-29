@@ -1,0 +1,8 @@
+Date: 2026-10-28 Asia/Shanghai
+Execution environment: this Codex session, not a claim about the host's ordinary terminal.
+HTTPS via configured local proxy: curl (7) Couldn't connect to server.
+Direct HTTPS without proxy: curl (6) Could not resolve host: github.com.
+Node fetch official raw GitHub README: EAI_AGAIN raw.githubusercontent.com.
+Web search/open: no usable source content returned.
+Browser provider inventory: empty.
+No official OFT source, model card, or checkpoint metadata was successfully retrieved.

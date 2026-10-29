@@ -1,0 +1,60 @@
+{
+  "path": "checkpoints/openvla-7b-oft-finetuned-libero-spatial/action_head--150000_checkpoint.pt",
+  "tensors": 16,
+  "parameters": 151117831,
+  "finite": true,
+  "shapes": {
+    "module.model.layer_norm1.weight": [
+      28672
+    ],
+    "module.model.layer_norm1.bias": [
+      28672
+    ],
+    "module.model.fc1.weight": [
+      4096,
+      28672
+    ],
+    "module.model.fc1.bias": [
+      4096
+    ],
+    "module.model.mlp_resnet_blocks.0.ffn.0.weight": [
+      4096
+    ],
+    "module.model.mlp_resnet_blocks.0.ffn.0.bias": [
+      4096
+    ],
+    "module.model.mlp_resnet_blocks.0.ffn.1.weight": [
+      4096,
+      4096
+    ],
+    "module.model.mlp_resnet_blocks.0.ffn.1.bias": [
+      4096
+    ],
+    "module.model.mlp_resnet_blocks.1.ffn.0.weight": [
+      4096
+    ],
+    "module.model.mlp_resnet_blocks.1.ffn.0.bias": [
+      4096
+    ],
+    "module.model.mlp_resnet_blocks.1.ffn.1.weight": [
+      4096,
+      4096
+    ],
+    "module.model.mlp_resnet_blocks.1.ffn.1.bias": [
+      4096
+    ],
+    "module.model.layer_norm2.weight": [
+      4096
+    ],
+    "module.model.layer_norm2.bias": [
+      4096
+    ],
+    "module.model.fc2.weight": [
+      7,
+      4096
+    ],
+    "module.model.fc2.bias": [
+      7
+    ]
+  }
+}

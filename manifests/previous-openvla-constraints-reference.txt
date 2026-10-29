@@ -1,0 +1,17 @@
+# Compatibility constraints for this Python 3.10 / CUDA 12.1 environment.
+# Use: python -m pip install -c constraints-openvla.txt <packages>
+numpy==1.26.4
+opencv-python==4.10.0.84
+torch==2.2.0+cu121
+torchvision==0.17.0+cu121
+transformers==4.40.1
+tokenizers==0.19.1
+timm==0.9.10
+accelerate==0.30.1
+bitsandbytes==0.43.3
+mujoco==2.3.7
+
+# Compatibility for the full OpenVLA/LIBERO import path (TensorFlow 2.15).
+protobuf==3.20.3
+tensorflow-metadata==1.15.0
+wandb==0.13.11

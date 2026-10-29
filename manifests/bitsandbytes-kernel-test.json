@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-29T09:04:01.503951+08:00",
+  "torch": "2.2.0+cu121",
+  "cuda_runtime": "12.1",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "bitsandbytes": "0.43.3",
+  "dtype": "torch.bfloat16",
+  "shape": [
+    1,
+    8,
+    32
+  ],
+  "finite": true,
+  "status": "PASS"
+}

@@ -1,0 +1,30 @@
+.venv/
+.cache/
+checkpoints/*
+!checkpoints/.gitkeep
+outputs/
+logs/
+__pycache__/
+
+# Downloaded dependencies and large local artifacts
+wheelhouse/
+data/
+rollouts/
+*.mp4
+*.whl
+*.safetensors
+*.pt
+*.pth
+
+# Machine-specific LIBERO paths (regenerate after cloning)
+.libero/config.yaml
+
+# Credentials / local environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+*access_token*
+.DS_Store
